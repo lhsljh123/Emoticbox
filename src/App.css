@@ -40,7 +40,7 @@ a:link { color: black; text-decoration: none;}
     padding-left: 18%;
     width: 64%;
 }
-.emoticon img{
+.emoticon canvas{
     width: 180px;
     height: 180px;
 }
