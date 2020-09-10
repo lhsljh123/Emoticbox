@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Emoticbox/static/css/main.2c7adb8c.chunk.css",
-    "main.js": "/Emoticbox/static/js/main.a35e4d9f.chunk.js",
-    "main.js.map": "/Emoticbox/static/js/main.a35e4d9f.chunk.js.map",
+    "main.css": "/Emoticbox/static/css/main.1f6fa0fb.chunk.css",
+    "main.js": "/Emoticbox/static/js/main.b2a8e659.chunk.js",
+    "main.js.map": "/Emoticbox/static/js/main.b2a8e659.chunk.js.map",
     "runtime-main.js": "/Emoticbox/static/js/runtime-main.bf79fbb5.js",
     "runtime-main.js.map": "/Emoticbox/static/js/runtime-main.bf79fbb5.js.map",
     "static/js/2.9050e5d1.chunk.js": "/Emoticbox/static/js/2.9050e5d1.chunk.js",
     "static/js/2.9050e5d1.chunk.js.map": "/Emoticbox/static/js/2.9050e5d1.chunk.js.map",
     "index.html": "/Emoticbox/index.html",
-    "precache-manifest.99bc982a4f1ed1e5afa57bb4f0d59020.js": "/Emoticbox/precache-manifest.99bc982a4f1ed1e5afa57bb4f0d59020.js",
+    "precache-manifest.ade162b7ef1eb8968756f816906d2e02.js": "/Emoticbox/precache-manifest.ade162b7ef1eb8968756f816906d2e02.js",
     "service-worker.js": "/Emoticbox/service-worker.js",
-    "static/css/main.2c7adb8c.chunk.css.map": "/Emoticbox/static/css/main.2c7adb8c.chunk.css.map",
+    "static/css/main.1f6fa0fb.chunk.css.map": "/Emoticbox/static/css/main.1f6fa0fb.chunk.css.map",
     "static/js/2.9050e5d1.chunk.js.LICENSE.txt": "/Emoticbox/static/js/2.9050e5d1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.bf79fbb5.js",
     "static/js/2.9050e5d1.chunk.js",
-    "static/css/main.2c7adb8c.chunk.css",
-    "static/js/main.a35e4d9f.chunk.js"
+    "static/css/main.1f6fa0fb.chunk.css",
+    "static/js/main.b2a8e659.chunk.js"
   ]
 }
