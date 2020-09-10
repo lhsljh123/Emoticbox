@@ -1,25 +1,46 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState, useEffect } from 'react';
+import { HashRouter, Route, useParams } from "react-router-dom";
+import Emoticon_All from './emoticon/emoticon_all.json';
+import Emoticon_Business from './emoticon/emoticon_business.json';
+import Emoticon_Move from './emoticon/emoticon_move.json';
+import Emoticon_Stop from './emoticon/emoticon_stop.json';
+import Emoticon_2030 from './emoticon/emoticon_2030.json';
+import Emoticon_4050 from './emoticon/emoticon_4050.json';
+import Emoticon_Thmnail from './emoticon/emoticon_thmnail.json';
+import Emoticon from './Emoticon'
+import logo from "./img/logo_emoticBox.png"
+import logo_bar from "./img/logo_bar.png";
 import './App.css';
+import Detail  from './Detail';
 
-function App() {
+const App = () => {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <HashRouter>
+      <Route path="/" exact={true}>
+        <div className="main">
+          <div className="logo">
+            <img src={logo_bar}/>
+            <img src={logo}/>
+            <img src={logo_bar}/>
+          </div>
+          <p className="notice">EmoticBox에 등록된 이모티콘 중 다우오피스에 적합한 이모티콘의 리스트입니다.<br />마음에 드시는 이모티콘의 이름을 메일로 전달해주세요.</p>
+          <div className="emoticons">
+            {Emoticon_Thmnail.map(emoticon => (
+              <Emoticon 
+                id={emoticon.id}
+                imgId={emoticon.emoticonId}
+                title={emoticon.title}
+                drawer={emoticon.drawer}
+              />
+            ))}
+          </div>
+        </div>
+      </Route>
+      <Route path="/emoticon/:id" component={Detail}>
+          
+      </Route>
+    </HashRouter>
   );
 }
 
