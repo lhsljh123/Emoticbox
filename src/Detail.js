@@ -36,6 +36,7 @@ const Detail = ({match}) => {
                 <img src={logo}/>
                 <img src={logo_bar}/>
             </div>
+            <p className="announce">움직이는 이모티콘의 애니메이션을 다시 보고 싶으시면 새로고침(F5)을 해주세요.</p>
             <div className="introduction">
                 <div className="thmnail">
                     <img src={emoticonSrc}/>

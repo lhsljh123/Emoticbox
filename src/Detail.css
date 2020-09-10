@@ -2,6 +2,16 @@
     margin-left: 20.5%;
     margin-bottom: 60px;
 }
+.announce{
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height */
+    margin-bottom:80px;
+    text-align: center;
+}
 .thmnail{
     display: flex;
     align-items: flex-start;
