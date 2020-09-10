@@ -4,21 +4,23 @@ import ApngComponent from 'react-apng';
 import './App.css';
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import test from "./img/test.png";
 
 function Emoticon({id, imgId, title, drawer}){
-    const emoticonSrc = "https://emoticon.emoticbox.com/src/" + imgId;
-    const apngRef = useRef();
-    const onMouseOverEmoticon = () => {
-        const { play } = apngRef.current;
-        play();
-      }
+    const emoticonSrc = `https://emoticon.emoticbox.com/src/${imgId}`;
+    //const emoticonSrc = test;
+    // const apngRef = useRef();
+    // const onMouseOverEmoticon = () => {
+    //     const { play } = apngRef.current;
+    //     play();
+    //   }
     
-      const onMouseLeaveEmoticon = () => {
-        const { isPlay, stop } = apngRef.current;
-        if (isPlay) {
-          stop();
-        }
-      };
+    //   const onMouseLeaveEmoticon = () => {
+    //     const { isPlay, stop } = apngRef.current;
+    //     if (isPlay) {
+    //       stop();
+    //     }
+    //   };
 
     return (
         <div className="emoticon">
@@ -26,14 +28,16 @@ function Emoticon({id, imgId, title, drawer}){
                 to ={{
                     pathname: `/emoticon/${id}`,
                 }}>
-                {/* <img src={emoticonSrc} alt={title} title={title}></ApngComponent> */}
-                <StickerImage
-                    ref={apngRef}
-                    src={emoticonSrc}
-                    alt="Image"
-                    onMouseOver={onMouseOverEmoticon}
-                    onMouseLeave={onMouseLeaveEmoticon}
-                />
+                {/* <ApngComponent src={emoticonSrc} alt={title} title={title}></ApngComponent> */}
+                <OutlineBox>
+                    <StickerImage
+                        src={emoticonSrc}
+                        // ref={apngRef}
+                        alt="Image"
+                        // onMouseOver={onMouseOverEmoticon}
+                        // onMouseLeave={onMouseLeaveEmoticon}
+                    />
+                </OutlineBox>
                 <h3>{title}</h3>
             </Link>
             <h5>{drawer}</h5>
@@ -47,7 +51,19 @@ Emoticon.propTypes = {
     drawer: PropTypes.string.isRequired
 }
 
-const StickerImage = styled(ApngComponent)`
+const OutlineBox = styled.div`
+    width: 180px;
+    height: 180px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #DDDDDD;
+    background-color: #FFFFFF;
+    &:hover {
+        border: 1.5px solid #36BCD6;
+    }
+`
+
+const StickerImage = styled.img`
     width: 158px;
     height: 158px;
     vertical-align: middle;

@@ -1,11 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { HashRouter, Route, useParams } from "react-router-dom";
-import Emoticon_All from './emoticon/emoticon_all.json';
-import Emoticon_Business from './emoticon/emoticon_business.json';
-import Emoticon_Move from './emoticon/emoticon_move.json';
-import Emoticon_Stop from './emoticon/emoticon_stop.json';
-import Emoticon_2030 from './emoticon/emoticon_2030.json';
-import Emoticon_4050 from './emoticon/emoticon_4050.json';
 import Emoticon_Thmnail from './emoticon/emoticon_thmnail.json';
 import Emoticon from './Emoticon'
 import logo from "./img/logo_emoticBox.png"

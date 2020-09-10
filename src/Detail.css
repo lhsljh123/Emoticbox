@@ -1,14 +1,16 @@
+.introduction{
+    margin-left: 20.5%;
+    margin-bottom: 60px;
+}
 .thmnail{
     display: flex;
     align-items: flex-start;
     font-family: Noto Sans KR;
     font-style: normal;
     font-weight: normal;
-    margin-left: 20.5%;
     padding: 0px;
     width:59%;
     height: 300px;
-    margin-bottom: 60px;
 }
 .thmnail_data{
 
@@ -36,7 +38,6 @@
 .emoticonList img{
     width: 180px;
     height: 150px;
-    margin: 25px;
 }
 .emoticonList {
     display: flex;
@@ -45,4 +46,18 @@
     flex-wrap: wrap;
     padding-left: 20.5%;
     width: 61%;
+}
+.tag {
+    background: #EBEBEB;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 11.5px;
+    color: black;
+    border-radius: 20px;
+}
+.tagList {
+    display: flex;
+    align-items: flex-start;
 }
