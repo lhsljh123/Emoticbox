@@ -32,21 +32,14 @@ const App = () => {
           </div>
         </div>
       </Route>
-      <Route path="/emoticon/:id" component={Detail}>
-          
+      <Route onUpdate={() => window.scrollTo(0, 0)} path="/emoticon/:id" component={Detail}>
+
       </Route>
     </HashRouter>
   );
 }
 const main = styled.div`
-  position: relative;
-  width: 1920px;
-  height: 2000px;
-  background: #FFFFFF;
-  display: flex;
-  margin: 0 auto;
-  align-items: center;
-  align-content: center;
+
 `
 
 export default App;

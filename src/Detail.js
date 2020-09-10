@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import logo from './img/logo_emoticBox.png';
 import logo_bar from './img/logo_bar.png';
 import './Detail.css';
@@ -14,7 +14,9 @@ const Detail = ({match}) => {
     const id = `${match.params.id}`;
     const emoticonList = [];
     const tagList = [];
-
+    useEffect (()=>{
+        window.scrollTo(0, 0)
+    },[])
     // 패키지에서 이모티콘 가져오기
     Emoticon_All.map(emoticon => { if (emoticon.id.toString() === id.toString()) emoticonList.push(emoticon) });
 
