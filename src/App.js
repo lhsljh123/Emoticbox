@@ -6,6 +6,7 @@ import logo from "./img/logo_emoticBox.png"
 import logo_bar from "./img/logo_bar.png";
 import './App.css';
 import Detail  from './Detail';
+import styled from 'styled-components';
 
 const App = () => {
   
@@ -37,5 +38,15 @@ const App = () => {
     </HashRouter>
   );
 }
+const main = styled.div`
+  position: relative;
+  width: 1920px;
+  height: 2000px;
+  background: #FFFFFF;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  align-content: center;
+`
 
 export default App;
