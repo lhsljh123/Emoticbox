@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "52f962801baa412751094c4d36d1b656",
+    "revision": "81af1a4ffb07d8e0c22b2b426d00c787",
     "url": "/Emoticbox/index.html"
   },
   {
-    "revision": "59adb94cef0bef07601f",
-    "url": "/Emoticbox/static/css/main.65c25e75.chunk.css"
+    "revision": "3bea33f3a463ed8be7b4",
+    "url": "/Emoticbox/static/css/main.8feb2442.chunk.css"
   },
   {
-    "revision": "9138143f31da40728c57",
-    "url": "/Emoticbox/static/js/2.54ed4f6f.chunk.js"
+    "revision": "1f3552ac10a36a68ad3c",
+    "url": "/Emoticbox/static/js/2.527848ea.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/Emoticbox/static/js/2.54ed4f6f.chunk.js.LICENSE.txt"
+    "url": "/Emoticbox/static/js/2.527848ea.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "59adb94cef0bef07601f",
-    "url": "/Emoticbox/static/js/main.91382b0c.chunk.js"
+    "revision": "3bea33f3a463ed8be7b4",
+    "url": "/Emoticbox/static/js/main.099a304b.chunk.js"
   },
   {
     "revision": "76de92e21ed2ac93097e",
