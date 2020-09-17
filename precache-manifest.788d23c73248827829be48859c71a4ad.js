@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e53a06f4acd16b2f0705649a4f771503",
+    "revision": "c69d21c5c3f13401e56566f499c98926",
     "url": "/Emoticbox/index.html"
   },
   {
-    "revision": "b3fd55a74a6462261fce",
+    "revision": "88490738144549983a0b",
     "url": "/Emoticbox/static/css/main.8165cee1.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Emoticbox/static/js/2.527848ea.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b3fd55a74a6462261fce",
-    "url": "/Emoticbox/static/js/main.db1e35bb.chunk.js"
+    "revision": "88490738144549983a0b",
+    "url": "/Emoticbox/static/js/main.bd5981d2.chunk.js"
   },
   {
     "revision": "76de92e21ed2ac93097e",
